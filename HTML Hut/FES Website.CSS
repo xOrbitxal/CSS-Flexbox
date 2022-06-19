@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+a{
+    color: #000;
+    font-weight: bold;
+}
+
+.Headlink{
+    font-style: italic;
+}
+
+a:hover{
+    color: rgb(121, 71, 239);
+}
+
+a:active{
+    color: darkblue;
+}
+
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    background-color: rgb(49, 224, 224);
+}
+
+.FESLogo{
+    width: 325px;
+    height: 40px;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    padding-left: 16px;
+    margin-left: 40px;
+}
+
+header{
+    background-color: rgb(174, 146, 239);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 1010px;
+    font-size: x-large;
+}
+
+button{
+    background-color: rgb(49, 224, 224);
+    font-style: bold;
+    font-size: large;
+    padding: 5px;
+}
+
+/*About Section*/
+
+.about{
+    display: flex;
+    padding: 16px;
+    background-color: rgb(190, 148, 225);
+    align-items: stretch;
+    font-size: large;
+}
+
+.aboutheader{
+   display: flex;
+   justify-content: center;
+   background-color: rgb(190, 148, 225);
+   text-decoration: underline;
+   font-size: xx-large;
+}
+
+.aboutpara{
+    background-color: rgb(190, 148, 225);
+    padding-top: 0px;
+    padding-left: 16px;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.aboutimg{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(190, 148, 225);
+    height: 500px;
+    padding-bottom: 70px;
+}
+
+.aboutsec{
+    height: 200%;
+}
+
+/*Message and Email Goes Here*/
+
+
+/*Discord section*/
+
+.discord{
+    background-color: rgb(174, 174, 235);
+    padding: 48, 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discordimg{
+    size: 40px;
+}
+
+/*Contact Section*/
+
+.ClassSection{
+    background-color: rgb(119, 176, 223);
+}
+
+.Txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+/*Bottom Footer Section*/
+
+.Para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: bold;
+    color: aliceblue;
+    }
+
+/*Purple Nav section*/
+
+    footer{
+        height: 35px;
+        display: flex;
+        align-items: center;
+        word-spacing: 25px;
+        padding: 32px;
+        justify-content: center;
+        background-color: rgb(166, 99, 230);
+    }
