@@ -10,13 +10,7 @@ body{
 
 .FCont{
     display: flex;
-    flex-direction: column;
-    height: 450px;
     background-color: #F5F5F5;
-    /*This is always on the main axis*/
-    justify-content: space-between;
-    /*Always on the cross axis*/
-    align-items: end;
 }
 
 .item{
@@ -25,6 +19,10 @@ body{
     background-color: #DC143C;
     color: #ffff;
     margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
