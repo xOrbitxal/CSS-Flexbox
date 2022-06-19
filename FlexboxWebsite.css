@@ -121,3 +121,10 @@
       text-align: center;
     }
   }
+
+  footer{
+   display: flex;
+   justify-content: center;
+   font-size: larger;
+  }
+
